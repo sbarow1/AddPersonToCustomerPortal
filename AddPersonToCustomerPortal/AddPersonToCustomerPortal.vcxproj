@@ -21,9 +21,33 @@
   <ItemGroup>
     <ClInclude Include="..\webdriverxx\include\webdriverxx.h" />
     <ClInclude Include="..\webdriverxx\include\webdriverxx\browsers\chrome.h" />
+    <ClInclude Include="..\webdriverxx\include\webdriverxx\browsers\firefox.h" />
+    <ClInclude Include="..\webdriverxx\include\webdriverxx\browsers\ie.h" />
+    <ClInclude Include="..\webdriverxx\include\webdriverxx\browsers\phantom.h" />
+    <ClInclude Include="..\webdriverxx\include\webdriverxx\by.h" />
+    <ClInclude Include="..\webdriverxx\include\webdriverxx\capabilities.h" />
+    <ClInclude Include="..\webdriverxx\include\webdriverxx\client.h" />
+    <ClInclude Include="..\webdriverxx\include\webdriverxx\conversions.h" />
+    <ClInclude Include="..\webdriverxx\include\webdriverxx\element.h" />
+    <ClInclude Include="..\webdriverxx\include\webdriverxx\errors.h" />
+    <ClInclude Include="..\webdriverxx\include\webdriverxx\js_args.h" />
+    <ClInclude Include="..\webdriverxx\include\webdriverxx\keys.h" />
+    <ClInclude Include="..\webdriverxx\include\webdriverxx\picojson.h" />
+    <ClInclude Include="..\webdriverxx\include\webdriverxx\response_status_code.h" />
+    <ClInclude Include="..\webdriverxx\include\webdriverxx\session.h" />
+    <ClInclude Include="..\webdriverxx\include\webdriverxx\types.h" />
+    <ClInclude Include="..\webdriverxx\include\webdriverxx\wait.h" />
+    <ClInclude Include="..\webdriverxx\include\webdriverxx\wait_match.h" />
+    <ClInclude Include="..\webdriverxx\include\webdriverxx\webdriver.h" />
+    <ClInclude Include="..\webdriverxx\include\webdriverxx\window.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="addPerson.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\webdriverxx\include\webdriverxx\client.inl" />
+    <None Include="..\webdriverxx\include\webdriverxx\element.inl" />
+    <None Include="..\webdriverxx\include\webdriverxx\session.inl" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>
@@ -84,6 +108,7 @@
       <SDLCheck>true</SDLCheck>
       <AdditionalIncludeDirectories>C:\LibCurl\curl-7.55.1\curl-7.55.1\builds\libcurl-vc2017-x86-release-static-sspi-winssl\include;C:\Users\Sean Barow\Documents\Visual Studio 2017\Projects\AddPersonToCustomerPortal\webdriverxx\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AdditionalOptions>-D_SCL_SECURE_NO_WARNINGS %(AdditionalOptions)</AdditionalOptions>
+      <PreprocessorDefinitions>CURL_STATICLIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
     </ClCompile>
     <Link>
       <AdditionalDependencies>libcurl_a.lib;%(AdditionalDependencies)</AdditionalDependencies>

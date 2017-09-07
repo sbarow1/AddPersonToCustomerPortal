@@ -21,10 +21,78 @@
     <ClInclude Include="..\webdriverxx\include\webdriverxx\browsers\chrome.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="..\webdriverxx\include\webdriverxx\browsers\firefox.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\webdriverxx\include\webdriverxx\browsers\ie.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\webdriverxx\include\webdriverxx\browsers\phantom.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\webdriverxx\include\webdriverxx\by.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\webdriverxx\include\webdriverxx\capabilities.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\webdriverxx\include\webdriverxx\client.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\webdriverxx\include\webdriverxx\conversions.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\webdriverxx\include\webdriverxx\element.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\webdriverxx\include\webdriverxx\errors.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\webdriverxx\include\webdriverxx\js_args.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\webdriverxx\include\webdriverxx\keys.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\webdriverxx\include\webdriverxx\picojson.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\webdriverxx\include\webdriverxx\response_status_code.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\webdriverxx\include\webdriverxx\session.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\webdriverxx\include\webdriverxx\types.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\webdriverxx\include\webdriverxx\wait.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\webdriverxx\include\webdriverxx\wait_match.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\webdriverxx\include\webdriverxx\webdriver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\webdriverxx\include\webdriverxx\window.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="addPerson.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\webdriverxx\include\webdriverxx\client.inl">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="..\webdriverxx\include\webdriverxx\element.inl">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="..\webdriverxx\include\webdriverxx\session.inl">
+      <Filter>Header Files</Filter>
+    </None>
   </ItemGroup>
 </Project>
